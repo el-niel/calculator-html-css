@@ -1,0 +1,31 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+}
+table {
+    width: 50%;
+    margin: 20%;
+    border-spacing: 10px;
+}
+
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-color: #003566;
+    margin: 50px;
+}
+
+td {
+    padding: 30px;
+    border-radius: 50%;
+    text-align: center;
+    border-width: 2px;
+}
+
+td:hover {
+    background-color: #003566;
+    color: white;
+    cursor: pointer;
+}

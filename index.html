@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>replit</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap"
+            rel="stylesheet"
+        />
+
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <!-- navbar section -->
+        <header>
+            <nav class="menu">
+                <ul class="ul-list">
+                    <li><a href="#about_me">Home</a></li>
+                    <li><a href="#content">Contact</a></li>
+                    <li><a href="#register">Register</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Image upload -->
+        <img src="" alt="profile picture" />
+
+        <!-- About me  -->
+        <section class="about-me" id="about_me">
+            <h1 class="about">About Me</h1>
+            <p>
+                Hi my name is daniel gbadebo a student of the Altschool, I'm 24
+                years old. currently based in nigeria, lagos to be precise, i
+                love to code and listen to music
+            </p>
+            <p>
+                My goal for this diploma course is to develop my skill and learn
+                every step and requirement to make a good software engineer, so
+                i get to build Problem solving Tech apps
+            </p>
+            <p>
+                <b>Education: </b>currently have a diploma in advance software
+                engineering at Aptech computer institute
+            </p>
+
+            <p>
+                <b>Job exprience: </b>Team lead at Project Moatb(backend -
+                nodejs),and also a freelancer and a tutor of javascript
+            </p>
+            <p>
+                <b>Hobbies:</b> my hobbies are coding, playing the guitar,
+                singing and also reading
+            </p>
+        </section>
+
+        <hr />
+        <!-- contact page -->
+        <section class="contact" id="contact">
+            <h1>Contact section</h1>
+            <form action="" class="forms">
+                <label for="name">Enter your name:</label>
+                <input type="text" />
+                <br />
+                <br />
+                <label for="email">Enter your Email:</label>
+                <input type="email" />
+                <br />
+                <br />
+                <label for="message"><h2>Message</h2></label>
+                <br />
+                <textarea name="message" id="msg" cols="30" rows="10">
+                </textarea>
+
+                <br />
+                <label for="priority">Priority</label>
+                <select name="list" id="priority">
+                    <option value="">please your priority</option>
+                    <option value="high">High priority</option>
+                    <option value="mid">mid priority</option>
+                    <option value="low">low priority</option>
+                </select>
+                <br />
+                <br />
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- register page -->
+        <section class="register" id="register">
+            <h1>Register page</h1>
+            <label for="fname">FirstName:</label>
+            <input type="text" required />
+            <br />
+            <label for="lname">LastName:</label>
+            <input type="text" required />
+            <br />
+            <label for="phone">Phone No:</label>
+            <input type="tel" required />
+            <br />
+            <label for="gender">Gender:</label>
+            <select name="gen" id="gender-list">
+                <option value="">please your Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">others</option>
+            </select>
+            <br />
+            <label for="country">Country: </label>
+            <input type="text" />
+            <br />
+            <label for="state">State/province: </label>
+            <input type="text" />
+            <br />
+            <label for="username">Username: </label>
+            <input type="text" />
+            <br />
+            <label for="password">Password: </label>
+            <input type="password" />
+            <br />
+            <label for="password">Confirm Password: </label>
+            <input type="password" />
+        </section>
+
+        <!-- login page -->
+        <section class="login" id="login">
+            <h1>Login Page</h1>
+            <label for="username">Username: </label>
+            <input type="text" />
+            <br />
+            <label for="password">Password: </label>
+            <input type="password" />
+            <br />
+            <br />
+            <button type="submit" class="btn-login">Sign in</button>
+        </section>
+    </body>
+</html>

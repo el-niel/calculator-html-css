@@ -1,0 +1,55 @@
+body {
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: eaf4f4;
+}
+
+.ul-list {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.ul-list > li > a {
+    display: flex;
+    color: #3a0ca3;
+    align-content: space-between;
+    align-items: space;
+    margin: 10px;
+    text-decoration: none;
+}
+.about-me {
+    margin: 5px;
+}
+.about {
+    text-align: center;
+    color: black;
+}
+
+#msg {
+    border-color: red;
+    margin: auto;
+}
+
+.submit {
+    background-color: #33ac0e;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn-login {
+    background-color: #33ac0e;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}

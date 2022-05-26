@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 164px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    animation: color-change-2x 2s linear infinite alternate both;
+}
+
+h1 {
+    text-align: center;
+}
+.container {
+    margin: 100px auto;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.17);
+    width: 402px;
+}
+.flex-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-content: center;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #1282a2;
+    margin: 0;
+    padding: 40px 45px;
+    align-self: center;
+    color: black;
+}
+
+.item:hover {
+    background-color: #fe7f2d;
+    cursor: pointer;
+    animation: scale-up-center 1s ease 0.2s 1 normal none;
+}
+
+@keyframes scale-up-center {
+    0% {
+        transform: scale(0.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
